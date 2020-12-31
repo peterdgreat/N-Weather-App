@@ -7,6 +7,11 @@
     margin: 0;
     padding: 0;
 }
+input{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
 .bg{
     
 
@@ -14,7 +19,7 @@ background: #1E213A;
 }
 .details{
 width: 100%;
-height: 555px;
+height: 600px;
 
 .searchbox{
     width: 252px;
@@ -53,7 +58,7 @@ height: 555px;
 
 .current{
 height: 169px;
-margin-top: 6em;
+margin-top: 5em;
 text-align: center;
 
 font-family: Raleway;
@@ -84,7 +89,6 @@ margin-top: 1em;
 }
 
 .Today{
-height: 21px;
 text-align: center;
 
 font-family: Raleway;
