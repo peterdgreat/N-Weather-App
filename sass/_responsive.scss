@@ -1,0 +1,36 @@
+@include media-md{
+   .bg-2{
+    height: 1024px;
+   }
+   .details{
+    margin-top: 10em;
+       .Today{
+           margin-top:10em !important;
+       }
+   }
+   .days{
+    
+   }
+   .weeklyDetails{
+       margin-top: 10em !important;
+    grid-template-columns: repeat(3,1fr) !important;
+   }
+}
+
+@include media-lg{
+    .bg-2{
+        height: 1400px;
+    }
+    .weeklyDetails{
+        margin-top: 15em !important;
+     grid-template-columns: repeat(3,1fr) !important;
+    }
+    .details{
+        margin-top: 25em;
+           .Today{
+               margin-top:11em !important;
+               font-size: 3rem;
+           }
+       }
+    
+}

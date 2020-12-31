@@ -1,0 +1,209 @@
+@import './variable';
+@import './responsive';
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    
+
+background: #1E213A;
+}
+.details{
+width: 100%;
+height: 555px;
+
+.searchbox{
+    width: 252px;
+    height: 48px;
+    margin: 0 auto;
+   
+    background: #1E213A !important;
+    
+    border: 1px solid #E7E7EB;
+    box-sizing: border-box;
+    .search{
+        width: 100%;
+        height: 100%;
+         
+    border: 1px solid #E7E7EB;
+    box-sizing: border-box;
+    top: 60px;
+    background: #1E213A !important;
+    &::placeholder{text-align: center;
+        width: 115px;
+        height: 19px;
+        
+        
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        
+        
+        color: #616475;;
+    }
+    }
+}
+
+.current{
+height: 169px;
+margin-top: 6em;
+text-align: center;
+
+font-family: Raleway;
+font-style: normal;
+
+/* identical to box height */
+
+
+color: #E7E7EB;
+.temp{
+font-weight: 500;
+font-size: 144px;
+line-height: 100px;
+}
+.weather{
+  
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+margin-top: 1em;
+
+
+}
+}
+
+.Today{
+height: 21px;
+text-align: center;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+margin-top: 5em;
+color: #88869D;
+
+}
+.date{
+height: 21px;
+text-align: center;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+margin-top: 1em;
+
+color: #88869D;
+
+}
+.city{
+   margin-top: 2em;
+    height: 21px;
+   
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #88869D;
+}
+}
+
+
+.bg-2{
+
+    background: #100E1D;
+    width: 100%;
+    
+
+.days{
+
+    width: 120px;
+    height: 177px;
+   margin-top: 1em;
+    
+    background: #1E213A;
+   
+
+}
+.weeklyDetails{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    .date{
+height: 19px;
+
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #E7E7EB;
+    }
+    .hi-low{
+    height: 19px;
+
+margin-top: 1em;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+color: #E7E7EB;
+    }
+    .temp{
+        height: 19px;
+margin-top: 2em;
+text-align: center;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #E7E7EB;
+    }
+    .weather{
+        margin-top: 1em;
+        height: 19px;
+
+text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        
+        
+        color: #E7E7EB;
+    }
+
+}
+}
